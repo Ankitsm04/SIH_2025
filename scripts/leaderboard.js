@@ -1,7 +1,6 @@
 const TEACHER_PASSWORD = '2025';
 
   function initializeDummyData() {
-    if (!localStorage.getItem('users')) {
       const dummyUsers = {
         'anita7': {
           name: 'Anita',
@@ -30,7 +29,6 @@ const TEACHER_PASSWORD = '2025';
       };
       localStorage.setItem('users', JSON.stringify(dummyUsers));
     }
-  }
 
   function getUsers() {
     try {
