@@ -1,0 +1,18 @@
+{
+  "nav_home": "Home",
+  "nav_games": "Games",
+  "nav_about": "About",
+  "nav_contact": "Contact",
+  "nav_leaderboard": "Leaderboard",
+  "hero_heading": "Empowering Rural Students with Interactive STEM Learning",
+  "hero_subheading": "Engaging, multilingual, and offline-capable educational games for grades 6-12.",
+  "get_started": "Get Started",
+  "feature_interactive": "Interactive Games",
+  "feature_interactive_desc": "Engage students with fun, educational STEM games built for learning.",
+  "feature_multilingual": "Multilingual Content",
+  "feature_multilingual_desc": "Content available in multiple local languages for wider reach.",
+  "feature_offline": "Offline Accessibility",
+  "feature_offline_desc": "Works seamlessly without internet to overcome connectivity challenges.",
+  "feature_analytics": "Teacher Analytics",
+  "feature_analytics_desc": "Helps educators track student progress and engagement effectively."
+}

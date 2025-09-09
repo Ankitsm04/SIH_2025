@@ -1,0 +1,60 @@
+{
+  "nav_home": "मुखपृष्ठ",
+  "nav_courses": "पाठ्यक्रम",
+  "nav_games": "खेल",
+  "nav_about": "हमारे बारे में",
+  "nav_contact": "संपर्क करें",
+  "nav_leaderboard": "लीडरबोर्ड",
+  
+  "hero_heading": "इंटरैक्टिव STEM सीखने के साथ ग्रामीण छात्रों को सशक्त बनाएं",
+  "hero_subheading": "ग्रेड 6-12 के लिए आकर्षक, बहुभाषी, और ऑफ़लाइन-सक्षम शैक्षिक खेल और पाठ्यक्रम।",
+  "get_started": "शुरू करें",
+
+  "feature_interactive": "इंटरैक्टिव खेल",
+  "feature_interactive_desc": "मज़ेदार और शैक्षिक STEM खेलों के साथ छात्रों को आकर्षित करें।",
+  "feature_multilingual": "बहुभाषी सामग्री",
+  "feature_multilingual_desc": "व्यापक पहुंच के लिए विभिन्न स्थानीय भाषाओं में सामग्री उपलब्ध।",
+  "feature_offline": "ऑफ़लाइन उपयोग",
+  "feature_offline_desc": "कनेक्टिविटी चुनौतियों को दूर करने के लिए बिना इंटरनेट के निर्बाध काम करता है।",
+  "feature_analytics": "शिक्षक विश्लेषण",
+  "feature_analytics_desc": "शिक्षकों को छात्रों की प्रगति और व्यस्तता को प्रभावी ढंग से ट्रैक करने में मदद करता है।",
+
+  "games_heading": "एसटीईएम खेल",
+  "btn_play_now": "अभी खेलें",
+
+  "about_heading": "हमारे बारे में",
+  "about_paragraph_1": "एसटीईएम लर्न ग्रामीण छात्रों को इंटरैक्टिव एसटीईएम संसाधन देकर सशक्त बनाता है।",
+  "about_paragraph_2": "हमारा मिशन शैक्षिक अंतर को पाटना और बेहतर सीखने के परिणाम देना है।",
+  "about_paragraph_3": "यह पहल भारत भर में विविध सीखने के माहौल में सुलभता सुनिश्चित करती है।",
+
+  "contact_heading": "संपर्क करें",
+  "contact_intro": "हमें अपनी प्रतिक्रिया भेजने के लिए नीचे फ़ॉर्म भरें।",
+  "contact_label_name": "नाम:",
+  "contact_label_email": "ईमेल:",
+  "contact_label_message": "संदेश:",
+  "contact_submit": "भेजें",
+
+  "quiz_instructions_title": "क्विज़ निर्देश",
+  "quiz_instruction_1": "आपको 10 बहुविकल्पीय प्रश्नों के जवाब देने होंगे।",
+  "quiz_instruction_2": "सही उत्तर चुनें।",
+  "quiz_instruction_3": "प्रत्येक उत्तर के बाद आपको सही या गलत बताया जाएगा।",
+  "quiz_instruction_4": "अंत में आपका स्कोर दिखाया जाएगा।",
+  "btn_start_quiz": "क्विज़ शुरू करें",
+  "btn_back_to_games": "खेलों पर वापस जाएं",
+
+  "science_true_false_title": "विज्ञान सत्य या असत्य",
+  "tf_correct": "सही!",
+  "tf_incorrect": "गलत।",
+  "game_completed": "खेल पूरा हुआ!",
+  "restart_game": "फिर से शुरू करें",
+  
+  "memory_game_title": "STEM मेमोरी गेम",
+  "memory_matched_pairs": "मिली जोड़ी: {count} / {total}",
+  "memory_congratulations": "बधाई हो! आपने सभी जोड़ी मिलाई!",
+
+  "plant_game_title": "पौधे के भाग लेबल करें",
+  "plant_label_feedback_success": "सभी भाग सही तरीके से लेबल किए गए! बहुत बढ़िया!",
+
+  "start_quiz_aria_label": "क्विज़ शुरू करें",
+  "play_now_aria_label": "अभी खेलें"
+}

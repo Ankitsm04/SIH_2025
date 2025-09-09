@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Leaderboard - STEM Learn</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html" aria-label="Homepage">STEM Learn</a>
+      </div>
+      <nav>
+        <ul class="nav-list" role="menubar">
+          <li role="none"><a href="index.html" id="navHome" role="menuitem" class="nav-link active" data-i18n="nav_home">Home</a></li>
+          <li role="none"><a href="games.html" id="navGames" role="menuitem" class="nav-link" data-i18n="nav_games">Games</a></li>
+          <li role="none"><a href="about.html" id="navAbout" role="menuitem" class="nav-link" data-i18n="nav_about">About</a></li>
+          <li role="none"><a href="contact.html" id="navContact" role="menuitem" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+          <li role="none"><a href="leaderboard.html" id="navLeaderboard" role="menuitem" class="nav-link" data-i18n="nav_leaderboard">Leaderboard</a></li>
+        </ul>
+      </nav>
+      <!-- <select id="languageSwitcher" aria-label="Select Language" class="lang-switcher">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="kn">ಕನ್ನಡ</option>
+      </select> -->
+    </div>
+  </header>
+
+<div id="passwordModalOverlay">
+  <div id="passwordModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <h2 id="modalTitle">Enter Password to View Leaderboard</h2>
+    <div id="passwordError" role="alert">Incorrect password, please try again.</div>
+    <input type="password" id="passwordInput" aria-describedby="passwordError" placeholder="Enter password" autocomplete="off"/>
+    <button id="passwordSubmitBtn">Submit</button>
+    <button id="backButton">Back</button>
+  </div>
+</div>
+
+<main class="container" id="leaderboardContent" style="display:none;">
+  <h1>Class Leaderboards</h1>
+
+  <label for="classFilter">Filter by Class:</label>
+  <select id="classFilter">
+    <option value="">All Classes</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+    <option value="11">11</option>
+    <option value="12">12</option>
+  </select>
+
+  <button id="exportLeaderboard">Export Leaderboard to Excel</button>
+
+  <table id="leaderboardTable" border="1" style="width:100%; margin-top:1rem; border-collapse: collapse;">
+    <thead style="background-color: #2980b9; color: white;">
+      <tr>
+        <th style="padding:12px 20px;">Student Name</th>
+        <th style="padding:12px 20px;">Class</th>
+        <th style="padding:12px 20px;">Game</th>
+        <th style="padding:12px 20px;">Score</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</main>
+<script src="scripts/leaderboard.js"></script>
+</body>
+</html>

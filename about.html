@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About - STEM Learning Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html" aria-label="Homepage">STEM Learn</a>
+      </div>
+      <nav>
+        <ul class="nav-list" role="menubar">
+          <li role="none"><a href="index.html" id="navHome" role="menuitem" class="nav-link" data-i18n="nav_home">Home</a></li>
+          <li role="none"><a href="games.html" id="navGames" role="menuitem" class="nav-link" data-i18n="nav_games">Games</a></li>
+          <li role="none"><a href="about.html" id="navAbout" role="menuitem" class="nav-link active" data-i18n="nav_about">About</a></li>
+          <li role="none"><a href="contact.html" id="navContact" role="menuitem" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+          <li role="none"><a href="leaderboard.html" id="navLeaderboard" role="menuitem" class="nav-link" data-i18n="nav_leaderboard">Leaderboard</a></li>
+        </ul>
+      </nav>
+      <select id="languageSwitcher" aria-label="Select Language" class="lang-switcher">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="kn">ಕನ್ನಡ</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="container about-section" aria-label="About STEM Learn">
+      <h1 data-i18n="about_heading">About STEM Learn</h1>
+      <p data-i18n="about_paragraph_1">
+        STEM Learn is dedicated to empowering rural students by providing engaging, interactive STEM learning resources. Our platform offers multilingual, offline-capable educational games and content tailored for grades 6-12.
+      </p>
+      <p data-i18n="about_paragraph_2">
+        Our mission is to bridge educational gaps, enhance student engagement, and support teachers with analytics and insights to foster better learning outcomes.
+      </p>
+      <p data-i18n="about_paragraph_3">
+        This initiative is designed to be accessible, inclusive, and effective in diverse learning environments across India.
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2025 STEM Learn. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/i18n.js"></script>
+  <script>
+    document.getElementById('languageSwitcher').addEventListener('change', (e) => {
+      loadLanguage(e.target.value);
+    });
+  </script>
+  <script src="scripts/common.js"></script>
+</body>
+</html>

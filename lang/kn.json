@@ -1,0 +1,60 @@
+{
+  "nav_home": "ಮುಖಪುಟ",
+  "nav_courses": "ಪಠ್ಯಕ್ರಮಗಳು",
+  "nav_games": "ಆಟಗಳು",
+  "nav_about": "ನಮ್ಮ ಬಗ್ಗೆ",
+  "nav_contact": "ಸಂಪರ್ಕಿಸಿ",
+  "nav_leaderboard": "ಲೀಡರ್ಬೋರ್ಡ್",
+
+  "hero_heading": "ಇಂಟರಾಕ್ಟಿವ್ STEM ಅಧ್ಯಯನದೊಂದಿಗೆ ಗ್ರಾಮೀಣ ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಸಬಲಗೊಳಿಸಿ",
+  "hero_subheading": "ತರಗತಿ 6-12 ಪರ್ಯಾಯ, ಬಹುಭಾಷಾ ಮತ್ತು ಆಫ್‌ಲೈನ್ ಕೇಂದ್ರಿತ ಶಿಕ್ಷಣ ಆಟಗಳು ಮತ್ತು ಪಾಠಕ್ರಮಗಳು.",
+  "get_started": "ಪ್ರಾರಂಭಿಸಿ",
+
+  "feature_interactive": "ಇಂಟರಾಕ್ಟಿವ್ ಆಟಗಳು",
+  "feature_interactive_desc": "ಮಾರ್ಗದರ್ಶನ ಮತ್ತು ಸಶಕ್ತಗೊಳಿಸುವ STEM ಆಟಗಳ ಮೂಲಕ ವಿದ್ಯಾರ್ಥಿಗಳನ್ನು ಆಕರ್ಷಿಸಿ.",
+  "feature_multilingual": "ಬಹುಭಾಷಾ ವಿಷಯಗಳು",
+  "feature_multilingual_desc": "ವಿಸ್ತೃತ ಪ್ರವೇಶಕ್ಕಾಗಿ ವಿವಿಧ ಸ್ಥಳೀಯ ಭಾಷೆಗಳಲ್ಲಿ ವಿಷಯಗಳು ಲಭ್ಯ.",
+  "feature_offline": "ಆಫ್‌ಲೈನ್ ಬಳಕೆ",
+  "feature_offline_desc": "ಜಾಲ ಸಂಪರ್ಕ ಸಮಸ್ಯೆಗಳನ್ನು ತಡೆಯಲು ಇಂಟರ್ನೆಟ್ ಇಲ್ಲದೇ ನಿರಂತರ ಕಾರ್ಯನಿರ್ವಹಣೆ.",
+  "feature_analytics": "ಶಿಕ್ಷಕರ ವಿಶ್ಲೇಷಣೆ",
+  "feature_analytics_desc": "ವಿದ್ಯಾರ್ಥಿಗಳ ಪ್ರಗತಿ ಮತ್ತು ತೊಡಗುಣೆಯನ್ನು ಪರಿಣಾಮಕಾರಿಯಾಗಿ ಟ್ರ್ಯಾಕ್ ಮಾಡಲು ಶಿಕ್ಷಕರಿಗೆ ನೆರವು.",
+
+  "games_heading": "STEM ಆಟಗಳು",
+  "btn_play_now": "ಈಗ ಆಡೋಣ",
+
+  "about_heading": "ನಮ್ಮ ಬಗ್ಗೆ",
+  "about_paragraph_1": "STEM ಲರ್ನ್ ಗ್ರಾಮೀಣ ವಿದ್ಯಾರ್ಥಿಗಳಿಗೆ ಇಂಟರಾಕ್ಟಿವ್ STEM ಸಂಪನ್ಮೂಲಗಳನ್ನು ಒದಗಿಸುವ ಮೂಲಕ ಶಕ್ತಿಪ್ರದಾನ ಮಾಡುತ್ತದೆ.",
+  "about_paragraph_2": "ನಮ್ಮ ಗುರಿ ಶಿಕ್ಷಣದ ಅಂತರಗಳನ್ನು ಸರಿಪಡಿಸಿ ಉತ್ತಮ ಅಧ್ಯಯನ ಫಲಿತಾಂಶಗಳನ್ನು ಒದಗಿಸುವುದು.",
+  "about_paragraph_3": "ಈ ಉದ್ಧಮವು ಭಾರತದೆಲ್ಲೆಡೆ ವಿಭಿನ್ನ ಅಧ್ಯಯನ ಪರಿಸರಗಳಲ್ಲಿ ಪ್ರವೇಶಕ್ಕೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ.",
+
+  "contact_heading": "ಸಂಪರ್ಕಿಸಿ",
+  "contact_intro": "ದಯವಿಟ್ಟು ಪ್ರತಿಕ್ರಿಯೆಗಾಗಿ ಕೆಳಗಿನ ಫಾರ್ಮ್ ಭರ್ತಿ ಮಾಡಿ.",
+  "contact_label_name": "ಹೆಸರು:",
+  "contact_label_email": "ಇಮೇಲ್:",
+  "contact_label_message": "ಸಂದೇಶ:",
+  "contact_submit": "ಸಂಪರ್ಕಿಸಿ",
+
+  "quiz_instructions_title": "ಕ್ವಿಜ್ ಸೂಚನೆಗಳು",
+  "quiz_instruction_1": "ನೀವು 10 ಬಹು ಆಯ್ಕೆ ಪ್ರಶ್ನೆಗಳಿಗೆ ಉತ್ತರಿಸಬೇಕು.",
+  "quiz_instruction_2": "ಸರಿಯಾದ ಉತ್ತರ ಆಯ್ಕೆ ಮಾಡಿರಿ.",
+  "quiz_instruction_3": "ಪ್ರತಿ ಉತ್ತರದ ನಂತರ ನೀವು ಸರಿಯಾದುದು ಅಥವಾ ತಪ್ಪಿದುದು ತಿಳಿಯಲಿದೆ.",
+  "quiz_instruction_4": "ಕೊನೆಯಲ್ಲಿ ನಿಮ್ಮ ಅಂಕಗಳನ್ನು ತೋರಿಸಲಾಗುವುದು.",
+  "btn_start_quiz": "ಕ್ವಿಜ್ ಪ್ರಾರಂಭಿಸಿ",
+  "btn_back_to_games": "ಆಟಗಳಿಗೆ ಹಿಂತಿರುಗಿ",
+
+  "science_true_false_title": "ವಿಜ್ಞಾನ ಸರಿ ಅಥವಾ ತಪ್ಪು",
+  "tf_correct": "ಸರಿಯಾಗಿದೆ!",
+  "tf_incorrect": "ತಪ್ಪಾಗಿದೆ.",
+  "game_completed": "ಆಟ ಪೂರ್ಣವಾಗಿದೆ!",
+  "restart_game": "ಮತ್ತೆ ಪ್ರಾರಂಭಿಸಿ",
+
+  "memory_game_title": "STEM ಮೆಮೊರಿ ಆಟ",
+  "memory_matched_pairs": "ಜೋಡಿಗಳ ಸಂಖ್ಯೆ: {count} / {total}",
+  "memory_congratulations": "ಅಭಿನಂದನೆಗಳು! ನೀವು ಎಲ್ಲಾ ಜೋಡಿಗಳನ್ನು ಹೊಂದಿಸಿದ್ದೀರಿ!",
+
+  "plant_game_title": "ಗಾರ್ಡನ್ ಭಾಗಗಳು ಲೇಬಲ್‌ ಮಾಡಿ",
+  "plant_label_feedback_success": "ಎಲ್ಲಾ ಭಾಗಗಳನ್ನು ಸರಿಯಾಗಿ ಲೇಬಲ್ ಮಾಡಲಾಗಿದೆ! ತುಂಬಾ ಚೆನ್ನಾಗಿದೆ!",
+
+  "start_quiz_aria_label": "ಕ್ವಿಜ್ ಪ್ರಾರಂಭಿಸಿ",
+  "play_now_aria_label": "ಈಗ ಆಡೋಣ"
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact - STEM Learning Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html" aria-label="Homepage">STEM Learn</a>
+      </div>
+      <nav>
+        <ul class="nav-list" role="menubar">
+          <li role="none"><a href="index.html" id="navHome" role="menuitem" class="nav-link" data-i18n="nav_home">Home</a></li>
+          <li role="none"><a href="games.html" id="navGames" role="menuitem" class="nav-link" data-i18n="nav_games">Games</a></li>
+          <li role="none"><a href="about.html" id="navAbout" role="menuitem" class="nav-link" data-i18n="nav_about">About</a></li>
+          <li role="none"><a href="contact.html" id="navContact" role="menuitem" class="nav-link active" data-i18n="nav_contact">Contact</a></li>
+          <li role="none"><a href="leaderboard.html" id="navLeaderboard" role="menuitem" class="nav-link" data-i18n="nav_leaderboard">Leaderboard</a></li>
+        </ul>
+      </nav>
+      <select id="languageSwitcher" aria-label="Select Language" class="lang-switcher">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="kn">ಕನ್ನಡ</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="container contact-section" aria-label="Contact STEM Learn">
+      <h1 data-i18n="contact_heading">Contact Us</h1>
+      <p data-i18n="contact_intro">We’d love to hear from you! Please fill out the form below to get in touch.</p>
+
+      <form id="contactForm" aria-label="Contact Form">
+        <label for="name" data-i18n="contact_label_name">Name:</label>
+        <input type="text" id="name" name="name" required aria-required="true" />
+
+        <label for="email" data-i18n="contact_label_email">Email:</label>
+        <input type="email" id="email" name="email" required aria-required="true" />
+
+        <label for="message" data-i18n="contact_label_message">Message:</label>
+        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+
+        <button type="submit" class="btn-primary" data-i18n="contact_submit">Send Message</button>
+      </form>
+
+      <p id="contactResponse" role="alert" aria-live="polite" style="margin-top: 1rem;"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2025 STEM Learn. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/i18n.js"></script>
+  <script>
+    document.getElementById('languageSwitcher').addEventListener('change', (e) => {
+      loadLanguage(e.target.value);
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      loadLanguage('en');
+
+      document.getElementById('contactForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        const response = document.getElementById('contactResponse');
+        response.textContent = "Thank you for contacting us! We will get back to you shortly.";
+        this.reset();
+      });
+    });
+  </script>
+  <script src="scripts/common.js"></script>
+</body>
+</html>

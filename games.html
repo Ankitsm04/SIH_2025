@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Games - STEM Learning Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html" aria-label="Homepage">STEM Learn</a>
+      </div>
+      <nav>
+        <ul class="nav-list" role="menubar">
+          <li role="none"><a href="index.html" id="navHome" role="menuitem" class="nav-link" data-i18n="nav_home">Home</a></li>
+          <li role="none"><a href="games.html" id="navGames" role="menuitem" class="nav-link active" data-i18n="nav_games">Games</a></li>
+          <li role="none"><a href="about.html" id="navAbout" role="menuitem" class="nav-link" data-i18n="nav_about">About</a></li>
+          <li role="none"><a href="contact.html" id="navContact" role="menuitem" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+          <li role="none"><a href="leaderboard.html" id="navLeaderboard" role="menuitem" class="nav-link" data-i18n="nav_leaderboard">Leaderboard</a></li>
+          <li role="none" id="navLogoutLi" style="display: none;">
+            <button id="logoutBtn" class="logout-button">Logout</button>
+          </li>
+        </ul>
+      </nav>
+      <select id="languageSwitcher" aria-label="Select Language" class="lang-switcher">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="kn">ಕನ್ನಡ</option>
+      </select>
+    </div>
+  </header>
+
+  <main class="main-content">
+
+    <!-- Login Section -->
+    <section id="loginSection" style="max-width: 400px; margin: 2rem auto;">
+      <h2>Student Login</h2>
+      <form id="loginForm">
+        <label for="studentName">Name:</label><br/>
+        <input type="text" id="studentName" required style="width:100%; padding:0.5rem; margin-bottom:1rem;" />
+
+        <label for="studentClass">Class:</label><br/>
+        <select id="studentClass" required style="width:100%; padding:0.5rem; margin-bottom:1rem;">
+          <option value="">Select Class</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+
+        <button type="submit" style="width:100%; padding:0.7rem; font-size:1.1rem;">Enter Games</button>
+      </form>
+    </section>
+
+    <!-- Games Section -->
+    <section id="gamesSection" style="display:none;" aria-label="Available STEM Games">
+      <h1 data-i18n="games_heading">STEM Games</h1>
+
+      <div id="gameCardsContainer" class="game-cards">
+        <article class="game-card">
+          <h2>Simple Math Quiz</h2>
+          <p>Test your math skills with fun quick quizzes.</p>
+          <button class="start-game-btn" data-game="math-quiz" aria-label="Start Simple Math Quiz">Play Now</button>
+        </article>
+
+        <article class="game-card">
+          <h2>Science Trivia</h2>
+          <p>Test your science knowledge with interesting questions.</p>
+          <button class="start-game-btn" data-game="science-trivia" aria-label="Start Science Trivia">Play Now</button>
+        </article>
+
+        <article class="game-card">
+          <h2>Term Matching</h2>
+          <p>Match each STEM term to its correct definition.</p>
+          <button class="start-game-btn" data-game="term-matching" aria-label="Start Matching Game">Play Now</button>
+        </article>
+
+        <article class="game-card">
+          <h2>Science True or False</h2>
+          <p>Test your knowledge by deciding if statements are true or false.</p>
+          <button class="start-game-btn" data-game="science-true-false" aria-label="Start Science True or False Game">Play Now</button>
+        </article>
+
+        <article class="game-card">
+          <h2>STEM Memory Game</h2>
+          <p>Match pairs of STEM icons to test your memory.</p>
+          <button class="start-game-btn" data-game="memory-game" aria-label="Start STEM Memory Game">Play Now</button>
+        </article>
+      </div>
+
+      <section id="gameContainer" aria-live="polite" aria-label="Game Area" tabindex="0" style="display:none;">
+        <p>Select a game above to start playing!</p>
+      </section>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2025 STEM Learn. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="games/quiz.js"></script>
+  <script src="games/scienceTrivia.js"></script>
+  <script src="games/matching.js"></script>
+  <script src="games/scienceTrueFalse.js"></script>
+  <script src="games/memoryGame.js"></script>
+  <script src="scripts/i18n.js"></script>
+  <script src="scripts/games.js"></script>
+  <script src="scripts/common.js"></script>  
+</body>
+</html>

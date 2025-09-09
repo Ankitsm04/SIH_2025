@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>STEM Learning Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html" aria-label="Homepage">STEM Learn</a>
+      </div>
+      <nav>
+        <ul class="nav-list" role="menubar">
+          <li role="none"><a href="index.html" id="navHome" role="menuitem" class="nav-link active" data-i18n="nav_home">Home</a></li>
+          <li role="none"><a href="games.html" id="navGames" role="menuitem" class="nav-link" data-i18n="nav_games">Games</a></li>
+          <li role="none"><a href="about.html" id="navAbout" role="menuitem" class="nav-link" data-i18n="nav_about">About</a></li>
+          <li role="none"><a href="contact.html" id="navContact" role="menuitem" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+          <li role="none"><a href="leaderboard.html" id="navLeaderboard" role="menuitem" class="nav-link" data-i18n="nav_leaderboard">Leaderboard</a></li>
+        </ul>
+      </nav>
+      <select id="languageSwitcher" aria-label="Select Language" class="lang-switcher">
+        <option value="en">English</option>
+        <option value="hi">हिन्दी</option>
+        <option value="kn">ಕನ್ನಡ</option>
+        <!-- add more languages as needed -->
+      </select>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <section class="hero">
+      <div class="container hero-container">
+        <h1 data-i18n="hero_heading">Empowering Rural Students with Interactive STEM Learning</h1>
+        <p data-i18n="hero_subheading">Engaging, multilingual, and offline-capable educational games and courses for grades 6-12.</p>
+        <a href="games.html" class="btn-primary" data-i18n="get_started">Get Started</a>
+      </div>
+    </section>
+
+    <section class="features container" aria-label="Platform Features">
+      <article class="feature">
+        <h2 data-i18n="feature_interactive">Interactive Games</h2>
+        <p data-i18n="feature_interactive_desc">Engage students with fun, educational STEM games built for learning.</p>
+      </article>
+      <article class="feature">
+        <h2 data-i18n="feature_multilingual">Multilingual Content</h2>
+        <p data-i18n="feature_multilingual_desc">Content available in multiple local languages for wider reach.</p>
+      </article>
+      <article class="feature">
+        <h2 data-i18n="feature_offline">Offline Accessibility</h2>
+        <p data-i18n="feature_offline_desc">Works seamlessly without internet to overcome connectivity challenges.</p>
+      </article>
+      <article class="feature">
+        <h2 data-i18n="feature_analytics">Teacher Analytics</h2>
+        <p data-i18n="feature_analytics_desc">Helps educators track student progress and engagement effectively.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>&copy; 2025 STEM Learn. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/i18n.js"></script>
+  <script>
+    document.getElementById('languageSwitcher').addEventListener('change', (e) => {
+      loadLanguage(e.target.value);
+    });
+
+    window.addEventListener('DOMContentLoaded', () => {
+      loadLanguage('en');
+    });
+  </script>
+  <script src="scripts/common.js"></script>   
+</body>
+</html>
