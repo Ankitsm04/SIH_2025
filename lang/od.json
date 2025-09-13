@@ -1,0 +1,60 @@
+{
+  "nav_home": "ମୁଖ୍ୟ ପୃଷ୍ଠା",
+  "nav_courses": "ପାଠ୍ୟକ୍ରମ",
+  "nav_games": "ଖେଳ",
+  "nav_about": "ଆମ୍ଭୋଙ୍କ ବିଷୟରେ",
+  "nav_contact": "ଯୋଗାଯୋଗ",
+  "nav_leaderboard": "ଲିଡରବୋର୍ଡ",
+  
+  "hero_heading": "ଇଣ୍ଟରାକ୍ଟିଭ୍ STEM ଶିକ୍ଷା ସହ କ୍ରାମାଞ୍ଚଳ ଛାତ୍ରଛାତ୍ରୀଙ୍କୁ ସଶକ୍ତ କରନ୍ତୁ",
+  "hero_subheading": "ଷଷ୍ଠ ଠାରୁ 12ଶ୍ରେଣୀ ପର୍ଯ୍ୟନ୍ତ ପାଇଁ ଆକର୍ଷକ, ବହୁଭାଷୀ, ଏବଂ ଅଫ୍ଲାଇନ୍ ସମର୍ଥିତ ଶିକ୍ଷାମୂଳକ ଖେଳ ଓ ପାଠ୍ୟକ୍ରମ।",
+  "get_started": "ଆରମ୍ଭ କରନ୍ତୁ",
+
+  "feature_interactive": "ଇଣ୍ଟରାକ୍ଟିଭ୍ ଖେଳ",
+  "feature_interactive_desc": "ମଜାଦାର ଏବଂ ଶିକ୍ଷାମୂଳକ STEM ଖେଳ ସହିତ ଛାତ୍ରଛାତ୍ରୀଙ୍କୁ ଆକର୍ଷଣ କରନ୍ତୁ।",
+  "feature_multilingual": "ବହୁଭାଷୀ ସମଗ୍ରୀ",
+  "feature_multilingual_desc": "ବିଶ୍ତୃତ ପହଞ୍ଚ ପାଇଁ ବିଭିନ୍ନ ଅଞ୍ଚଳୀୟ ଭାଷାରେ ସମଗ୍ରୀ ଉପଲବ୍ଧ।",
+  "feature_offline": "ଅଫ୍ଲାଇନ୍ ବ୍ୟବହାର",
+  "feature_offline_desc": "ସଂଯୋଗ ସମସ୍ୟାକୁ ଅଟକାଇବା ପାଇଁ ଇଣ୍ଟରନେଟ୍ ବିନା ମଧ୍ୟ ସଙ୍ଗତିପୂର୍ଣ୍ଣ ଭାବରେ କାମ କରେ।",
+  "feature_analytics": "ଶିକ୍ଷକ ବିଶ୍ଳେଷଣ",
+  "feature_analytics_desc": "ଶିକ୍ଷକମାନଙ୍କୁ ଛାତ୍ରଛାତ୍ରୀଙ୍କର ପ୍ରଗତି ଓ ଆକର୍ଷଣକୁ ପ୍ରଭାବଶାଳୀ ଭାବରେ ଟ୍ରାକ୍ କରିବାରେ ସାହାଯ୍ୟ କରେ।",
+
+  "games_heading": "STEM ଖେଳ",
+  "btn_play_now": "ଏବେ ଖେଳନ୍ତୁ",
+
+  "about_heading": "ଆମ୍ଭୋଙ୍କ ବିଷୟରେ",
+  "about_paragraph_1": "STEM Learn କ୍ରାମାଞ୍ଚଳ ଛାତ୍ରଛାତ୍ରୀଙ୍କୁ ଇଣ୍ଟରାକ୍ଟିଭ୍ STEM ସମ୍ପଦ ପ୍ରଦାନ କରି ସଶକ୍ତ କରେ।",
+  "about_paragraph_2": "ଆମର ଲକ୍ଷ୍ୟ ହେଉଛି ଶିକ୍ଷାର ତ୍ରୁଟିକୁ ପୁରଣ କରିବା ଏବଂ ଉନ୍ନତ ଶିକ୍ଷାର ପରିଣାମ ଦେବା।",
+  "about_paragraph_3": "ଏହି ପଦକ୍ଷେପ ଭାରତ ସାରାରେ ବିଭିନ୍ନ ଶିକ୍ଷାଗତ ପରିବେଶରେ ପହଞ୍ଚ ସୁନିଶ୍ଚିତ କରେ।",
+
+  "contact_heading": "ଯୋଗାଯୋଗ",
+  "contact_intro": "ଆମକୁ ଆପଣଙ୍କ ମତାମତ ପଠାଇବା ପାଇଁ ତଳର ଫର୍ମ ପୂରଣ କରନ୍ତୁ।",
+  "contact_label_name": "ନାମ:",
+  "contact_label_email": "ଇମେଲ୍:",
+  "contact_label_message": "ବାର୍ତ୍ତା:",
+  "contact_submit": "ପଠାନ୍ତୁ",
+
+  "quiz_instructions_title": "କୁଇଜ୍ ନିର୍ଦ୍ଦେଶାବଳୀ",
+  "quiz_instruction_1": "ଆପଣଙ୍କୁ 10ଟି ବିକଳ୍ପାଧାରିତ ପ୍ରଶ୍ନର ଉତ୍ତର ଦେବାକୁ ପଡିବ।",
+  "quiz_instruction_2": "ଠିକ୍ ଉତ୍ତର ବାଛନ୍ତୁ।",
+  "quiz_instruction_3": "ପ୍ରତ୍ୟେକ ଉତ୍ତର ପରେ ଆପଣଙ୍କୁ ଠିକ୍ କିମ୍ବା ଭୁଲ୍ ବୋଲି ଦେଖାଯିବ।",
+  "quiz_instruction_4": "ଶେଷରେ ଆପଣଙ୍କର ସ୍କୋର୍ ଦେଖାଯିବ।",
+  "btn_start_quiz": "କୁଇଜ୍ ଆରମ୍ଭ କରନ୍ତୁ",
+  "btn_back_to_games": "ଖେଳକୁ ପଛକୁ ଯାଆନ୍ତୁ",
+
+  "science_true_false_title": "ବିଜ୍ଞାନ ସତ୍ୟ କିମ୍ବା ମିଥ୍ୟା",
+  "tf_correct": "ଠିକ୍!",
+  "tf_incorrect": "ଭୁଲ୍।",
+  "game_completed": "ଖେଳ ସମାପ୍ତ!",
+  "restart_game": "ପୁଣିଥରେ ଆରମ୍ଭ କରନ୍ତୁ",
+  
+  "memory_game_title": "STEM ମେମୋରି ଖେଳ",
+  "memory_matched_pairs": "ମେଳିଥିବା ଯୁଗଳ: {count} / {total}",
+  "memory_congratulations": "ଅଭିନନ୍ଦନ! ଆପଣ ସମସ୍ତ ଯୁଗଳକୁ ମେଳାଇଛନ୍ତି!",
+
+  "plant_game_title": "ଗଛର ଅଂଶକୁ ଲେବେଲ୍ କରନ୍ତୁ",
+  "plant_label_feedback_success": "ସମସ୍ତ ଅଂଶ ଠିକ୍ ଭାବରେ ଲେବେଲ୍ କରାଯାଇଛି! ବହୁତ ଭଲ!",
+
+  "start_quiz_aria_label": "କୁଇଜ୍ ଆରମ୍ଭ କରନ୍ତୁ",
+  "play_now_aria_label": "ଏବେ ଖେଳନ୍ତୁ"
+}
